@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Operaciones Logicas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="title">Operaciones Lógicas</div>
+    <div class="animation and">AND</div>
+    <div class="animation or">OR</div>
+    <div class="animation xor">XOR</div>
+    
+    <div class="container">
+        <form>
+            <label>
+                <input type="checkbox" id="checkbox1"> True
+            </label>
+            <label>
+                <input type="checkbox" id="checkbox2"> False
+            </label>
+        </form>
+        <div class="result">
+            <p><strong>AND:</strong> <span id="andResult">❌ False</span></p>
+            <p><strong>OR:</strong> <span id="orResult">❌ False</span></p>
+            <p><strong>XOR:</strong> <span id="xorResult">❌ False</span></p>
+        </div>
+        <button type="button" class="btn-reset" id="resetBtn">Reset</button>
+    </div>
+</body>
+</html>
